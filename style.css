@@ -83,11 +83,11 @@
     fill: #ffffff; 
     transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-  @keyframes spin {
-    0% {
+  @keyframes spin{
+    0%{
       transform: translate(-50%, -50%) rotate(0deg);
     }
-    100% {
+    100%{
       transform: translate(-50%, -50%) rotate(360deg);
     }
   }
