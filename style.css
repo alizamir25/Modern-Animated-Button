@@ -24,10 +24,10 @@
     width: 130px;
     cursor: pointer;
   }
-  .brutalist-button.openai {
+  .brutalist-button.openai{
     background-color: #356854;
   }
-  .brutalist-button::before {
+  .brutalist-button::before{
     content: "";
     position: absolute;
     left: 50%;
@@ -39,20 +39,20 @@
     transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
     z-index: 1;
   }
-  .brutalist-button.openai::before {
+  .brutalist-button.openai::before{
     background-color: #316b58;
   }
-  .brutalist-button.claude::before {
+  .brutalist-button.claude::before{
     background-color: #e3d19c;
   }
-  .brutalist-button:hover::before {
+  .brutalist-button:hover::before{
     transform: translateX(-50%) scale(1);
   }
-  .brutalist-button:hover {
+  .brutalist-button:hover{
     transform: translate(-4px, -4px);
     box-shadow: 8px 8px 0px #000000;
   }
-  .brutalist-button:active {
+  .brutalist-button:active{
     transform: translate(2px, 2px);
     box-shadow: 2px 2px 0px #000000;
   }
