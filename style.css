@@ -1,11 +1,11 @@
 /* From Uiverse.io by 0xnihilism */ 
-.button-container {
+.button-container{
     display: flex;
     justify-content: center;
-    gap: 20px; /* Adjust this value to increase or decrease space between buttons */
+    gap: 20px; 
     padding: 20px;
   }
-  .brutalist-button {
+  .brutalist-button{
     display: flex;
     flex-direction: column;
     align-items: center;
